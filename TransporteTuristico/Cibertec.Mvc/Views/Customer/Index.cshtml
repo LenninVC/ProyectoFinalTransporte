@@ -1,10 +1,10 @@
-﻿@model IEnumerable<Cibertec.Models.Customers>
+﻿@model IEnumerable<Cibertec.Models.Cliente>
 
 @{
     ViewBag.Title = "Customer Index";
 }
 
-<h2>Index</h2>
+<h2>Listado de Clientes</h2>
 
 @Messages.AlertMessages()
 
@@ -21,7 +21,7 @@
 <div class="content"></div>
 <div class="pagination"></div>
 
-@Modal.GetModal("Customer", "customer.closeModal();")
+@Modal.GetModal("Cliente", "customer.closeModal();")
 
 <script src="~/Scripts/jquery.bootpag.min.js"></script>
 <script src="~/App_JS/cibertec.js"></script>

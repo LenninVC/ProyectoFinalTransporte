@@ -172,7 +172,6 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="CustomerHub.cs" />
     <Compile Include="Global.asax.cs">
@@ -231,15 +230,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
-    <Content Include="Views\Orders\Index.cshtml" />
-    <Content Include="Views\Orders\OrderDetail.cshtml" />
-    <Content Include="Views\Customer\Create.cshtml" />
-    <Content Include="Views\Customer\Update.cshtml" />
-    <Content Include="Views\Customer\Delete.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Customer\Index_old.cshtml" />
     <Content Include="Views\Customer\_List.cshtml" />
     <Content Include="Views\Customer\_Create.cshtml" />
     <Content Include="Views\Customer\_Update.cshtml" />

@@ -13,14 +13,12 @@ namespace Cibertec.Repositories.Dapper.NorthWind
         public NorthwindUnitOfWork(string connectionString)
         {
             Customers = new CustomersRepository(connectionString);
-            Orders = new OrdersRepository(connectionString);
-            OrderDetails = new OrderDetailsRepository(connectionString);
             Users = new UserRepository(connectionString);
+            Clientes = new ClienteRepository(connectionString);
         }
 
         public ICustomersRepository Customers { get; private set; }
-        public IOrdersRepository Orders { get; private set; }
-        public IOrderDetailsRepository OrderDetails { get; private set; }
         public IUserRepository Users { get; private set; }
+        public IClienteRepository Clientes { get; private set; }
     }
 }

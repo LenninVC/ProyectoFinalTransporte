@@ -24,7 +24,7 @@ namespace Cibertec.Mvc.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         [AllowAnonymous]
         public ActionResult Login(UserViewModel user)
         {

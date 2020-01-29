@@ -12,3 +12,4 @@ BEGIN
  FROM Usuario INNER JOIN Colaborador ON Usuario.IdUsuario=Colaborador.IdColaborador  
  WHERE Email=@email AND PWDCOMPARE(@password,[Password])=1  
 END  
+
