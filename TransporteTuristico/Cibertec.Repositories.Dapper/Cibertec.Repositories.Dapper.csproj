@@ -48,7 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NorthWind\ClienteRepository.cs" />
+    <Compile Include="NorthWind\ColaboradorRepository.cs" />
     <Compile Include="NorthWind\CustomersRepository.cs" />
+    <Compile Include="NorthWind\ItinerarioRepository.cs" />
     <Compile Include="NorthWind\NorthwindUnitOfWork.cs" />
     <Compile Include="NorthWind\UserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

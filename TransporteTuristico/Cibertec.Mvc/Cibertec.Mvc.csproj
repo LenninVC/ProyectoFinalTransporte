@@ -168,15 +168,19 @@
     <Compile Include="App_Start\DIConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ColaboradorHub.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ColaboradorController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItinerarioController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="CustomerHub.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ItinerarioHub.cs" />
     <Compile Include="Models\RegisterUserViewModel.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,7 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_JS\cibertec.js" />
+    <Content Include="App_JS\colaborador.js" />
     <Content Include="App_JS\customer.js" />
+    <Content Include="App_JS\itinerario.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -237,6 +243,16 @@
     <Content Include="Views\Customer\_Create.cshtml" />
     <Content Include="Views\Customer\_Update.cshtml" />
     <Content Include="Views\Customer\_Delete.cshtml" />
+    <Content Include="Views\Colaborador\Index.cshtml" />
+    <Content Include="Views\Colaborador\_Create.cshtml" />
+    <Content Include="Views\Colaborador\_Delete.cshtml" />
+    <Content Include="Views\Colaborador\_List.cshtml" />
+    <Content Include="Views\Colaborador\_Update.cshtml" />
+    <Content Include="Views\Itinerario\Index.cshtml" />
+    <Content Include="Views\Itinerario\_Create.cshtml" />
+    <Content Include="Views\Itinerario\_Delete.cshtml" />
+    <Content Include="Views\Itinerario\_List.cshtml" />
+    <Content Include="Views\Itinerario\_Update.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
