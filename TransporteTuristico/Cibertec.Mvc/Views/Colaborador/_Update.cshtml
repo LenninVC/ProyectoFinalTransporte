@@ -103,7 +103,7 @@
     $(function () {
         $.validator.unobtrusive.parse("#editForm");
         $('#inUse').addClass('hidden');
-        colaborador.addCustomer("@Model.IdColaborador");
+        colaborador.addColaborador("@Model.IdColaborador");
         colaborador.validate("@Model.IdColaborador");
     });
 

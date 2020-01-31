@@ -96,7 +96,7 @@
     $(function () {
         $.validator.unobtrusive.parse("#deleteForm");
         $('#inUse').addClass('hidden');
-        colaborador.addCustomer("@Model.IdColaborador");
+        colaborador.addColaborador("@Model.IdColaborador");
         colaborador.validate("@Model.IdColaborador");
     });
 
